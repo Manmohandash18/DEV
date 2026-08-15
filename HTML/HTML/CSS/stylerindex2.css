@@ -1,0 +1,31 @@
+h1{
+    background-color: orange;
+    height: 300px;
+    width: 300px;
+
+    /* border-width: 10px;
+    border-style:solid;
+    border-color: green; */
+
+    /* All the features of border can be written in a single word */
+    border: 10px solid greenyellow;
+    /* border: solid 10px greenyellow; same. it can be arranged in any order */
+    padding: 10px;
+    margin: 30px;  
+
+    /* padding-right: 10px;
+    padding: 10px 20px 30px 40px; 
+    padding: 20px 40px; */
+
+    /* margin-top: 50px;
+    margin: 10px 20px 30px 40px; */
+
+}h2{
+    background-color: pink;
+    border: 2px solid blue;
+}p{
+    background-color: aquamarine;
+    padding: 20px;
+    border: solid 5px blue;
+    margin:35px;
+}

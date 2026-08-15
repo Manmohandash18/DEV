@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    perspective: 800px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    /* transform: rotate(30deg);
+    transform: skewX(30deg);
+    transform: skewY(30deg); */
+    /* transition-property:all;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s; */
+    /* All these 4 properties can be represented in a single line */
+
+    transition: all 3s linear 1s ;
+    font-size: 30px;
+}
+
+.box:hover{
+    /* background-color: purple;
+    height:200px;
+    width: 200px; */
+    /* transform: scale(2);
+    transform: scaleY(2);
+    transform: translateY(50px); */
+    /* transform: translate(200px,300px); */
+    transform: translateZ(200px);
+    transform: rotateX(90deg);
+    /* transform: rotate(40deg); only one is rotating . But if we want to rotate both at the same time then we will apply transform:rotate: ; on conainer */
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>University Registration Form</h1>
+    <p>please fill out the form below to register</p> <hr>
+    <h2>Personal Details</h2>
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" name="userFname" id="fname" placeholder="e.g:Arjun"> <br> <br>
+
+        <label for="lname">Last name:</label>
+        <input type="text" name="userLname" id="lname" placeholder="e.g:Das"> <br> <br>
+
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" name="userLname" id="dob"> <br> <br>
+
+        <h3>Gender:</h3>
+<
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male"> <br>
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female"> <br>
+
+        <label for="other">other</label>
+        <input type="radio" name="gender" id="other" value="other"> <br> <br>
+
+        <label for="photo">Upload your photo:</label> <br>
+        <input type="file" name="photo" id="photo"> <br><br>
+
+        <hr>
+
+        <h2>Contact Information</h2>
+
+        <label for="email">Email Adress:</label>
+        <input type="email" name="mail" id="email" placeholder="you@example.com">
+
+        <br><br><label for="pnumber">Phone Number:</label>
+        <input type="tel" name="phone" id="pnumber" placeholder="e.g:9383907373"><br><br>
+
+        <label for="address">Mailing address:</label><br>
+        <textarea name="address" id="address" rows="10" cols="30"></textarea>
+
+        <hr>
+
+        <h2>Academic Information</h2>
+
+        <label for="course">Select your course:</label>
+        <select name="course" id="course">
+            <option value="CSE">CSE</option>
+            <option value="ME">ME</option>
+            <option value="CE">CE</option>
+        </select>
+        <br><br>
+
+        <label>Extra Curricular Intrests</label>
+        <br>
+
+        <label for="sports">Sports</label>
+        <input type="checkbox" name="Intrests" id="sports" value="sports"><br>
+
+       <label for="music">Music</label>
+        <input type="checkbox" name="Intrests" id="music" value="Music"><br>
+
+        <label for="volunter">Voluntering</label>
+        <input type="checkbox" name="Intrests" id="volunter" value="volunter"><br>
+
+        <label for="Dance">Dance</label>
+        <input type="checkbox" name="Intrests" id="Dance" value="Dance"><br>
+
+        <hr>
+
+        <h2>Create Your Account</h2>
+
+        <label for="acpassword">Create your password:</label>
+        <input type="password" name="acpassword" id="acpassword"> <br><br>
+
+        <label for="secu">Security Type:</label>
+        <input type="text" name="Security" id="secu">
+        
+        <hr>
+
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+        </form>
+</body>
+</html>

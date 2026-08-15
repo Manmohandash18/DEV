@@ -1,0 +1,48 @@
+/* Tag or element selector */
+/* h1{
+    background-color: aliceblue;
+    font-size: 30px;
+}
+h2{
+    background-color:green;
+} */
+
+/* here we observed that both h2 changed their color to green. Let's we want to change the color of only one h2. This can be done by using ID*/
+
+/* id concept */
+
+/* #first{
+    background-color: aliceblue;
+    font-size: 30px;
+}
+#second{
+    background-color:green;
+} */
+
+/* selection on the basis of class. class can be same for different attributes. */
+
+/* .third{
+    background-color: pink;
+} 
+*/
+
+/* Group based selection */
+
+/* h1, .fourth{
+    background-color: rgb(37, 161, 161);
+} */
+
+/* font size */
+h1{
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}ul{
+    font-size: 20px;
+}
+li{
+    font-size: 2em; 
+    /* it's font size is 2 times bigger than it's parents font size */
+}h2{
+    font-size: 2rem;
+    /* it's font size is 2 times bigger than the root's font */
+}

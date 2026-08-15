@@ -1,0 +1,34 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+}
+
+.first{
+    background-color: orange;
+    /* flex-grow: 1; */
+    flex-basis: 200px; /* it is used to increase height or width according to the direction of main axis*/
+
+}
+.second{
+    background-color: green;
+    /* flex-grow: 2; */
+    flex-shrink: 4;
+}
+.third{
+    background-color: red;
+    align-self: flex-start;
+}
+
+.fourth{
+    background-color:chartreuse ;
+}
